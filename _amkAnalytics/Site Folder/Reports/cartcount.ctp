@@ -1,0 +1,1 @@
+<?php if(isset($cart)) echo count($cart); ?>

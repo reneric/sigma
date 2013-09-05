@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"comm-",
+				"comm-section-footer	Comment - Section footer comment"
+			],
+			[
+				"ph",
+				"php	php"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"todo",
+				"Snippet: Comment - To-do list"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: wploop",
+				"Snippet: wp-loop"
+			],
+			[
+				"Snippet: wp",
+				"Snippet: wp-loop"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 212.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1378265283/gw/public_html/wp-content/themes/colbyconstructors/template-gallery.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/Concierge/sftp-config.json",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/footer.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377014697/chs/wp-content/themes/chs/home.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377010018/chs/wp-content/themes/chs/header.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/chs",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/d3468c1a-7c4e-4b92-a68e-b4bbce85cdec/public_html/diversified/wp-content/themes/Foundation/ch-admin/dashboard-options.php",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/css/custom.css",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/scss/custom.scss",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/sftp-config.json",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/chs.sublime-project",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/header.php",
+		"/Users/rsimmons/Desktop/Development/Clients/chs.sublime-project",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/ch-admin/dashboard-options.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/chs.sublime-project",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/untitled.sublime-project",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/269a69c4-e210-4270-855b-023243e46401/wp-content/themes/chs/header.php",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/style.scss",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/functions.php",
+		"/Users/rsimmons/Desktop/Development/To-Do/8-19.todo",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/PlainTasks/messages/pepsi.todo",
+		"/Users/rsimmons/Desktop/Development/Clients/Pepsi/pepsi-meeting.txt",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Comment-Snippets/comment-section-header.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Comment-Snippets/comment-section.sublime-snippet",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376928152/chs/wp-content/themes/chs/style.css",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376928940/chs/wp-content/themes/chs/header.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/home.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376802774/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS-child/header.php",
+		"/Users/rsimmons/Desktop/Development/Personal/SCSS/style.scss",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/269a69c4-e210-4270-855b-023243e46401/wp-content/themes/chs/style.css",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376804003/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS-child/footer.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/header.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-tdir.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-thumb.sublime-snippet",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376803013/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS-child/intro.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/iCodeThings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/stylesheet.sublime-snippet",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/partials/footerScripts.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/flexslider.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-stylesheet.sublime-snippet",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/footer.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/page.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/f663f370-a464-4ab8-ba21-7d9070b77557/public_html/bwa/wp-content/themes/dezinsAPPS-child/content-page.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/PHP/php-echo-___.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-option.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-field.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/PHP/php.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-nav.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-loop.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/temp-part.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/04f80737-f364-43f8-8b52-24de508ab54e/singlesiteinstalls/Rebath/css/custom.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"after",
+			";\n",
+			"width:",
+			"width:8",
+			"super+alt+.",
+			"super+alt",
+			"min-",
+			"caption"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"custom.cs",
+				"css/custom.css"
+			],
+			[
+				"custom.sc",
+				"scss/custom.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"cu",
+				"css/custom.css"
+			],
+			[
+				"custom",
+				"scss/custom.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}

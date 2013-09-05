@@ -1,0 +1,659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"home",
+				"home_url"
+			],
+			[
+				"wp",
+				"wploop	wp-loop"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"templat",
+				"get_template"
+			],
+			[
+				"ph",
+				"php	php"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"show",
+				"SFTP: Show Panel"
+			],
+			[
+				"up",
+				"SFTP: Upload File"
+			],
+			[
+				"sftp",
+				"SFTP: Download File"
+			],
+			[
+				"sftp canc",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"downl",
+				"SFTP: Download Folder"
+			],
+			[
+				"refre",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"mo",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"monit",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"monitor",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"upl",
+				"SFTP: Upload File"
+			],
+			[
+				"uplo",
+				"SFTP: Upload Folder"
+			],
+			[
+				"upload",
+				"SFTP: Upload VCS Changed Files"
+			],
+			[
+				"u",
+				"SFTP: Upload Folder"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"new fil",
+				"File: New View into File"
+			],
+			[
+				"uo",
+				"SFTP: Upload Folder"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git s",
+				"Git: Commit history"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Snippet: Comment - To-do list"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: wploop",
+				"Snippet: wp-loop"
+			],
+			[
+				"Snippet: wp",
+				"Snippet: wp-loop"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 212.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/searchs.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/css/custom.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/scss/custom.scss",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377530815/chs/wp-content/themes/chs/woocommerce/content-chs.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377539095/chs/wp-content/themes/chs/search.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/page.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377531195/chs/wp-content/themes/chs/page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/search.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/services.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/css/ie.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/checkout.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/checkout/form-checkout.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/cart/cart.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377536392/chs/wp-content/themes/chs/woocommerce/cart/totals.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/content-single-product.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/content-product.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/shop/wrapper-start.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/loop/orderby.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377531297/chs/wp-content/themes/chs/woocommerce/shop/wrapper-start.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377532256/chs/wp-content/themes/chs/woocommerce/shop/breadcrumb.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377532437/chs/wp-content/themes/chs/woocommerce/shop/wrapper-start.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/shop/breadcrumb.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/single-product.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/shop/wrapper-end.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/woocommerce/content-chs.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs-child/index.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377528774/chs/wp-content/themes/chs-child/index.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs-child/header.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377528940/chs/wp-content/plugins/woocommerce/templates/single-product.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377529002/chs/wp-content/plugins/woocommerce/templates/content-single-product.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/c2fca067-be34-4638-a4e6-c47a21a32635/singlesiteinstalls/Lakeurgentcare/masterpages/Master.master",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/index.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/lab.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/map.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/single.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/tag.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/contact.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/content-aside.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/content-audio.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/content-gallery.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/category.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/author.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/author-bio.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/archive.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/content.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377528092/chs/wp-content/themes/chs/single.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/home.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/js/min/main.min.js",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377295147/chs/wp-content/themes/chs/content.php",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377289088/chs/wp-content/plugins/woocommerce/templates/content-chs.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377270953/iCodeThings/public_html/wp-content/themes/twentytwelve/header.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377270718/iCodeThings/public_html/wp-content/themes/twentytwelve/page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/ch-admin/dashboard-options.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377282030/chs/wp-content/plugins/acf-options-page/acf-options-page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/css/custom.scss",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377270666/iCodeThings/public_html/wp-content/themes/twentytwelve/index.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/js/min/flexslider.min.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/css/flexslider.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/css/flexslider.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/img/image-upload.txt",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/js/flexslider.js",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377210116/chs/wp-content/plugins/woocommerce/templates/loop-shop.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/img/arrows.png",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377205652/chs/wp-content/themes/chs/img/main-pic.png",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377187746/iCodeThings/public_html/diversified/wp-content/themes/Foundation/index.php",
+		"/Users/rsimmons/Downloads/woothemes-FlexSlider-ca347d4/jquery.flexslider-min.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/js/functions.js",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377202086/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS/js/vendor/scripts.js",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377202144/Central/public_html/central/wp-content/themes/dezinsAPPS/js/scripts.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/ch-admin/footer-scripts.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377202020/Central/public_html/bwa/wp-content/themes/dezinsAPPS/js/scripts.js",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377201983/iCodeThings/public_html/diversified/wp-content/themes/Foundation/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/img/main-pic.png",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377185809/iCodeThings/public_html/diversified/wp-content/themes/Foundation/index.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/style.css",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/SublimeGit.sublime-settings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"//test.html",
+		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/comments.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/page.php",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/css/custom.css",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/scss/custom.scss",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/footer.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377101273/chs/wp-content/themes/chs/partials/ribbon.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377107304/iCodeThings/public_html/diversified/wp-content/themes/Foundation/index.php",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/header.php",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/home.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-thumb.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/index.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-loop.sublime-snippet",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377107237/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS/index.php",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377107189/iCodeThings/public_html/central/wp-content/themes/dezinsAPPS/page.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/SFTP/Default.sublime-commands",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/php.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/temp-part.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/stylesheet.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/chs.sublime-project",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/de86011f-4de1-4353-9f12-a02753496065/singlesiteinstalls/alisons/web.config",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376948595/chs/wp-content/themes/chs/header.php",
+		"/Users/rsimmons/Desktop/Web.config",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/dezinsAPPS",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/de86011f-4de1-4353-9f12-a02753496065/singlesiteinstalls/andermann/Web.config",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/de86011f-4de1-4353-9f12-a02753496065/singlesiteinstalls/BayPoint/web.config",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/css/custom.scss",
+		"/private/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/269a69c4-e210-4270-855b-023243e46401/wp-content/themes/chs/comments.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/css-img.sublime-snippet",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376944428/chs/wp-content/themes/chs/style.css",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376948163/chs/wp-content/themes/chs/css/custom.css",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/wp-stylesheet.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/style.scss",
+		"/Users/rsimmons/Downloads/wordpress/wp-content/themes/twentythirteen/style.css",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376947099/chs/wp-content/themes/chs/style.css",
+		"/Users/rsimmons/Desktop/Development/Clients/CHS/chs/style.css",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1376946151/chs/wp-content/themes/chs/screenshot.png"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cart-v",
+			"infp-top",
+			"get_",
+			"get	",
+			"get",
+			"/",
+			"menu",
+			"slider",
+			"register",
+			"content-block",
+			"thumb",
+			"font-fa",
+			"close",
+			"super+alt+.",
+			"close_tag",
+			"focus",
+			"password",
+			"database",
+			"caption"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.2,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 31.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"form-c",
+				"woocommerce/checkout/form-checkout.php"
+			],
+			[
+				"checkout",
+				"woocommerce/checkout.php"
+			],
+			[
+				"ser",
+				"services.php"
+			],
+			[
+				"ie",
+				"css/ie.css"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"lab",
+				"lab.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"cart",
+				"woocommerce/cart/cart.php"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"form-ce",
+				"woocommerce/checkout/form-checkout.php"
+			],
+			[
+				"car",
+				"woocommerce/cart/cart.php"
+			],
+			[
+				"wrap",
+				"woocommerce/shop/wrapper-start.php"
+			],
+			[
+				"single",
+				"woocommerce/single-product.php"
+			],
+			[
+				"content",
+				"woocommerce/content-product.php"
+			],
+			[
+				"content-sing",
+				"woocommerce/content-single-product.php"
+			],
+			[
+				"woo",
+				"woocommerce/single-product.php"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"content-sin",
+				"woocommerce/content-single-product.php"
+			],
+			[
+				"woocomm",
+				"woocommerce/single-product.php"
+			],
+			[
+				"bread",
+				"woocommerce/shop/breadcrumb.php"
+			],
+			[
+				"brea",
+				"woocommerce/shop/breadcrumb.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"woocomend",
+				"woocommerce/shop/wrapper-end.php"
+			],
+			[
+				"woosingle",
+				"woocommerce/single-product.php"
+			],
+			[
+				"",
+				"woocommerce/content-chs.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"custom",
+				"css/custom.css"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"arch",
+				"archive.php"
+			],
+			[
+				"cate",
+				"category.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"das",
+				"ch-admin/dashboard-options.php"
+			],
+			[
+				"contact",
+				"contact.php"
+			],
+			[
+				"map",
+				"map.php"
+			],
+			[
+				"ab",
+				"lab.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"main.min",
+				"js/min/main.min.js"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"cus",
+				"css/custom.scss"
+			],
+			[
+				"fle",
+				"js/min/flexslider.min.js"
+			],
+			[
+				"fl",
+				"js/flexslider.js"
+			],
+			[
+				"flex",
+				"css/flexslider.css"
+			],
+			[
+				"main.mi",
+				"js/min/main.min.js"
+			],
+			[
+				"js",
+				"js/functions.js"
+			],
+			[
+				"scripts",
+				"ch-admin/footer-scripts.php"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"comment",
+				"comments.php"
+			],
+			[
+				"custom.",
+				"scss/custom.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "GruntSetup",
+  "main": "Gruntfile.js",
+  "version": "0.1.0",
+  "description": "My Grunt setup",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-imagemin": "~0.2.1",
+    "imagemin": "~0.1.2",
+    "grunt-autoprefixer": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-livereload": "~0.1.2"
+  }
+}

@@ -1,0 +1,10 @@
+.containerContent {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+}  
+.col1{width: 320px; position: relative; float: left;}
+.col2{width: 400px; position: relative; float: left;}
+.col3{width: 180px; position: relative; float: left;}
+.col4{width: 720px; position: relative; float: left;}

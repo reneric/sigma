@@ -1,0 +1,1 @@
+A new user <?php echo $name; ?> has signed up for AMK Analytics requesting to be a subscriber.  Please follow up with them at the following email address: <?php echo $email; ?>

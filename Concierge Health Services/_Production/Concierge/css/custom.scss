@@ -1,0 +1,75 @@
+
+$blue: rgb(0,141,168);
+$orange: rgb(245,128,37);
+$style: solid;
+$borderRadius: 5px;
+$navColor: #ffffff;
+$fSize: 13px;
+$colWidth: 350px;
+$logoWidth: 297px;
+$logoHeight: 91px;
+
+body {
+	font-size: $fSize;
+}
+ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+
+}
+.site-header {
+		background-repeat:no-repeat;
+		background-color: $blue;
+		background-image: none;
+		background-position:center center;
+		a.home-link {
+				background-image: url("../img/logo.png");
+				background-repeat:no-repeat;
+				background-position:center center;
+				display: block;
+				float:left;
+				width: $logoWidth;
+				height: $logoHeight;
+				h1 {
+					text-indent: -9999px;
+					width: $logoWidth;
+					height: $logoHeight;
+				}
+		}
+}
+#site-navigation {
+	
+}
+.nav-menu {
+	ul {
+		background-color:$orange;	
+		list-style: none;
+		li {
+
+			a {
+				color:$navColor;
+				text-decoration:none;
+				text-transform:uppercase;
+			}
+		}
+	}
+}
+.info-block {
+
+}
+.info-top {
+
+	ul {
+
+		li {
+
+			a {
+				text-indent:-9999px;
+				display: block;
+			}
+		}
+	}
+}
+
+   
