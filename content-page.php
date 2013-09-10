@@ -17,7 +17,7 @@
 			</h2>
 		</header>
 
-		<div class="entry-content">
+		<div class="page-content">
 			<?php 
 				if(get_field('subtitle')):
 			?>

@@ -6,6 +6,7 @@ function subnav(){
 		wp_list_pages( array(
 			    'title_li' => '',
 			    'child_of' => $page,
+			    'sort_column' => 'menu_order',
 			    'depth' => '1' )
 			);
 	

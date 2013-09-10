@@ -20,21 +20,33 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=1400px" />
+<meta name="viewport" content="width=1400" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-<?php wp_enqueue_script('jquery'); ?>
+<?php 
+wp_enqueue_script('jquery'); 
+wp_enqueue_script( 'ui' );
+?>
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div class="page-bg"></div>
+<?php 
+if (have_posts()) {
+  while (have_posts()) {
+    the_post();
+    $pagekids = get_pages("child_of=".$post->ID."&sort_column=menu_order");
+    $firstchild = $pagekids[0];
+    wp_redirect(get_permalink($firstchild->ID));
+  }
+}; ?>
+<div class="page-bg"><img width="100%" height="100%" src="<?php echo get_template_directory_uri(); ?>/compressed/bg.png" alt="IE"></div>
 <div class="page-wrapper">
 	<div class="top-scroll-wrap">
 		<div class="top-scroll clearfix">

@@ -14,7 +14,7 @@
 			<h2 class="entry-title"><?php the_field("content_title"); ?></h2>
 		</header>
 		<?php endif; ?>
-		<div class="entry-content">
+		<div class="page-content">
 			<header class="content clearfix">
 				<?php if(get_field("subtitle")): ?>
 				<h3><?php the_field("subtitle"); ?></h3>
@@ -54,7 +54,7 @@ $title = (get_sub_field('member_title')) ? ', '.get_sub_field("member_title") : 
 
 ?>
 										<h4><?php the_sub_field("first"); ?> <?php the_sub_field("last"); ?><?php echo $title; ?></h4>
-										<h5><?php get_sub_field('title'); ?></h5>
+										<h5><?php the_sub_field('title'); ?></h5>
 									</div>
 								</li>
             		<?php	endif;

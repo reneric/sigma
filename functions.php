@@ -79,6 +79,8 @@ require( get_template_directory() . '/inc/custom-header.php' );
 
 wp_register_script( 'main', get_template_directory_uri() . '/js/min/main.min.js', false, false, true);
 wp_enqueue_script( 'main' );
+wp_register_script( 'ui', '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', false, false, true);
+
 function twentytwelve_scripts_styles() {
 	global $wp_styles;
 
@@ -141,7 +143,7 @@ function twentytwelve_scripts_styles() {
 	/*
 	 * Loads the Internet Explorer specific stylesheet.
 	 */
-	wp_enqueue_style( 'google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Slab:400,100,300,700' );
+	
 
 	
 	wp_enqueue_style( 'twentytwelve-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentytwelve-style' ), '20121010' );
