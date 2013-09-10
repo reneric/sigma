@@ -65,10 +65,7 @@ body.full-width .site-content {
 .site-header h2 {
 	text-align: left;
 }
-.site-header h1 {
-	font-size: 26px;
-	line-height: 1.846153846;
-}
+
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
 	border-bottom: 1px solid #ededed;
