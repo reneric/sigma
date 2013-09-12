@@ -15,6 +15,7 @@
 	</div><!-- top-scroll -->
 	<span class="fade"></span>
 </div><!-- top-scroll-wrap -->
+
 <footer>
 	<div class="inner">
 		<div class="logo-holder"><a href="<?php bloginfo( 'home'); ?>" class="logo"></a></div>
@@ -25,6 +26,7 @@
 	<div class="footer-panel"></div>
 </footer>
 <?php wp_footer(); ?>
+
 </div><!-- page-wrapper -->
 <ul class="member-bgs">
 <?php
@@ -40,5 +42,12 @@
 	endif;
 ?>
 </ul>
+<div id="slideout">
+  <div id="slideout_inner">
+  	<h1><span>Menu</span></h1>
+   <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+  </div>
+</div>
+
 </body>
 </html>

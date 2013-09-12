@@ -20,9 +20,10 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=1400" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<!-- <a data-viewport="480×800" data-icon="mobile">Samsung Galaxy S</a> -->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
@@ -30,9 +31,15 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php 
+wp_enqueue_script('modernizr'); 
 wp_enqueue_script('jquery'); 
 wp_enqueue_script( 'ui' );
+wp_enqueue_script( 'plugins' );
+wp_enqueue_script( 'main' );
+//wp_enqueue_script( 'fastclick' );
+
 ?>
+
 <?php wp_head(); ?>
 </head>
 
@@ -47,7 +54,10 @@ if (have_posts()) {
   }
 }; ?>
 <div class="page-bg"><img width="100%" height="100%" src="<?php echo get_template_directory_uri(); ?>/compressed/bg.png" alt="IE"></div>
-<div class="page-wrapper">
+<div id="page-wrapper" class="page-wrapper">
+	<div id="menu-bar">
+		<a href="#" id="menu-toggle">Menu</a>
+	</div>
 	<div class="top-scroll-wrap">
 		<div class="top-scroll clearfix">
 			<?php if(!is_home()): ?>

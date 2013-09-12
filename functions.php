@@ -76,9 +76,12 @@ require( get_template_directory() . '/inc/custom-header.php' );
  *
  * @since Twenty Twelve 1.0
  */
-
+wp_deregister_script( 'jquery' );
+wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, false, true);
+wp_register_script( 'plugins', get_template_directory_uri() . '/js/plugins.js', false, false, true);
+wp_register_script( 'fastclick', get_template_directory_uri() . '/js/fastclick.js', false, false, true);
+wp_register_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', false, false, true);
 wp_register_script( 'main', get_template_directory_uri() . '/js/min/main.min.js', false, false, true);
-wp_enqueue_script( 'main' );
 wp_register_script( 'ui', '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', false, false, true);
 
 function twentytwelve_scripts_styles() {
@@ -140,6 +143,7 @@ function twentytwelve_scripts_styles() {
 	wp_enqueue_style( 'twentytwelve-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css' );
 	wp_enqueue_style( 'fonts', get_template_directory_uri() . '/css/fonts.css' );
+	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
 	/*
 	 * Loads the Internet Explorer specific stylesheet.
 	 */

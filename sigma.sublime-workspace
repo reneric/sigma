@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"background",
+				"background-clip"
+			],
+			[
 				"as",
-				"ashlt"
+				"ashdk"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ash",
+				"ashdk"
+			],
+			[
+				"top-scrol",
+				"top-scroll-wrap"
+			],
+			[
+				"open",
+				"openPanel"
+			],
+			[
+				"close",
+				"closePanel"
+			],
+			[
+				"top-sc",
+				"top-scroll-wrap"
+			],
+			[
+				"slideout",
+				"slideout_inner"
+			],
+			[
+				"footer",
+				"footerHeight"
+			],
+			[
+				"getEle",
+				"getElementById"
 			],
 			[
 				"get_tit",
 				"get_the_title"
-			],
-			[
-				"ash",
-				"ashlt"
 			],
 			[
 				"get_sub",
@@ -72,74 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "content-team.php",
-			"settings":
-			{
-				"buffer_size": 2108,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/custom-functions.php",
-			"settings":
-			{
-				"buffer_size": 599,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "page.php",
-			"settings":
-			{
-				"buffer_size": 666,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1232,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "team.php",
-			"settings":
-			{
-				"buffer_size": 1409,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sidebar.php",
-			"settings":
-			{
-				"buffer_size": 1505,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 1750,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content-page.php",
-			"settings":
-			{
-				"buffer_size": 926,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/custom.scss",
-			"settings":
-			{
-				"buffer_size": 24326,
+				"buffer_size": 2646,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,15 +119,42 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 2126,
+				"buffer_size": 41326,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/custom.css",
+			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 14814,
+				"buffer_size": 1424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/scss/responsive.scss",
+			"settings":
+			{
+				"buffer_size": 5506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*============================\n        **** SCSS ****\n============================*/\n\n/*===  Font Styles  ===*/\n$robo: \"Roboto Slab\", helvetica, arial, sans-serif;\n$h1size: 60px;\n$h1lead: 54px;\n$h2size: 24px;\n$h2lead: 30px;\n$h3size: 18px;  \n$h3lead: 24px;\n$h4size: 16px;\n$h4lead: 22px;\n$h5size: 23px;\n$h5lead: 18px;\n$psize: 14px;\n$plead: 20px;\n$btnsize: 14px;\n$btnlead: 31px;\n \n/*===  Colors  ===*/\n$red: #ec4a00;\n\n\n$dkblue: #429ccb;\n$ltblue: #71b5d8;\n$drgreen: #00b05f;\n$ltgreen: #40c487;\n$ashdk: #053054;\n$ashlt: #44647f;\n$tan: #e5e5e5;\n\n\n\n/*===  @mixins  ===*/\n@mixin font($size, $lead, $col...) {\n    font-size:$size;\n    line-height:$lead;\n    color:$col;\n    // font-weight: 300;\n}\n@mixin button {\n    font-family:\"Lato\", helvetica, arial, sans-serif;\n    font-weight: 300;\n    font-size: $btnsize;\n    line-height: $btnlead;\n    background-color: $ashdk;\n    color:#ffffff;\n    height: 31px;\n    display: block;\n    padding:0px 10px;\n    text-transform: uppercase;\n\n}\n@mixin latoblk{\n    font-family:\"Lato\", helvetica, arial, sans-serif;\n    font-weight: 400;\n}\n@mixin latobld{\n    font-family:\"Lato\", helvetica, arial, sans-serif;\n    font-weight: 700;\n}\n@mixin lato{\n    font-family:\"Lato\", helvetica, arial, sans-serif;\n    font-weight: normal;\n}\n/*-----  End of SCSS  ------*/\nbody{\n    font-weight: 300;\n\n}\na {\n    text-decoration: none;\n}\n.clearfix:after, .split:after {\n     visibility: hidden;\n     display: block;\n     font-size: 0;\n     content: \" \";\n     clear: both;\n     height: 0;\n     }\n.clearfix, .split { display: inline-block; }\n/* start commented backslash hack \\*/\n* html .clearfix,\n* html .split { height: 1%; }\n.clearfix, .split { display: block; }\n/* close commented backslash hack */\nh1, .site-header h1{\n    @include font($h1size, $h1lead, #ffffff);\n    @include latoblk;\n}\nh2, .site-header h2{\n    @include font($h2size, $h2lead, $dkblue);\n    \n}\nh3, .site-header h3{\n    @include font($h3size, $h3lead, $ashdk);\n    text-transform: uppercase;\n    @include latoblk;\n}\nh4, .site-header h4{\n    @include font($h4size, $h4lead, $ashlt);\n    @include latobld;\n}\nh5, .site-header h5{\n    @include font($h5size, $h5lead, $ltblue);\n    @include latobld;\n}\np{\n    @include font($psize, $plead, #000000);\n    @include lato;\n}\nul{\n    margin: 0;\n    padding:0;\n    list-style: none;\n}\n\nbody{\nfilter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../compressed/bg.png', sizingMethod='scale');\n    -ms-filter: \"progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../compressed/bg.png',   sizingMethod='scale')\";\n}\n\n.ie8 .page-bg{\n    -webkit-background-size: cover;\n    background-size: cover;\n    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../compressed/bg.png', sizingMethod='scale');\n    -ms-filter: \"progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../compressed/bg.png',   sizingMethod='scale')\";\n    img{\n        display: block;\n        width:100%;\n        height: 100%;\n        min-width: 100%;\n        min-height:100%;\n    }\n}\n.page-bg{\n        background-image: url(\"../compressed/bg.png\");\n        background-repeat:no-repeat;\n        background-position:center top;\n        background-size: 100% auto;\n        position: fixed;\n    width: 100%;\n    z-index: 1;\n    height: 100%;\n    min-width: 1600px;\n    img{\n        display: none;\n    }\n}\n.page-wrapper {\n    position: relative;\n    z-index: 100;\n    \n}\n/*==============================\n        **** Header ****\n==============================*/\nheader#masthead{\n    max-width: 1415px;\n    margin:0 auto;\n    padding:0 0px;\n    position: relative;\n    -webkit-transition: all 0.5s ease-in-out;\n    -moz-transition: all 0.5s ease-in-out;\n    -ms-transition: all 0.5s ease-in-out;\n    -o-transition: all 0.5s ease-in-out;\n    transition: all 0.5s ease-in-out;\n    nav#secondary{\n        float:right;\n        width:250px;\n        margin-top:15px;\n        margin-right:25px;\n        ul{\n           \n            li{\n                position: relative;\n                display: inline;\n                padding-right:25px;\n                &:first-child{\n                    margin-right: 30px;\n                }\n                a{\n                    color:#ffffff;\n                    font-family: lato;\n                    font-weight: 300;\n                }\n                &.contact {\n                    background-position: 0 0;\n                    &:after{\n                        content:\"\";\n                        width:14px;\n                        height:14px;\n                        background-image: url(\"../compressed/icon-sprite.png\");\n                        background-repeat:no-repeat;\n                        background-position:0px 0px;\n                        position: absolute;\n                        right:0px;\n                    }\n                }\n                &.login{\n                    background-position: 0 0;\n                    &:after{\n                        content:\"\";\n                        width:14px;\n                        height:14px;\n                        background-image: url(\"../compressed/icon-sprite.png\");\n                        background-repeat:no-repeat;\n                        background-position:-19px 0;\n                        position: absolute;\n                        right:0px;\n                    }\n                }\n            }\n        }\n    }\n    div.page-header{\n        margin: 2.3em 0em 0;\n        max-width:530px;\n        border:none;\n        float:left;\n        h1{}\n        div.tagline{\n            margin-top: .8em;\n            margin-right: 90px;\n            p{\n                @include latoblk;\n                color:#ffffff;\n                font-size: 24px;\n                line-height: 24px;  \n                font-weight: 300;           \n            }\n        }\n    }\n    div.subnav{\n        float: left;\n        width: 100%;\n        ul{\n            li{\n                margin: 4px 12px 20px 0;\n                float:left;\n                a{\n                    @include button;\n                    -webkit-transition: all .2s ease-in-out;\n                    -moz-transition: all .2s ease-in-out;\n                    -ms-transition: all .2s ease-in-out;\n                    -o-transition: all .2s ease-in-out;\n                    transition: all .2s ease-in-out;\n                    &:hover,&.active{\n                        background-color:$dkblue;\n                        -webkit-transition: all .2s ease-in-out;\n                        -moz-transition: all .2s ease-in-out;\n                        -ms-transition: all .2s ease-in-out;\n                        -o-transition: all .2s ease-in-out;\n                        transition: all .2s ease-in-out;\n                    }\n                }\n                &.current_page_item{\n                    a{\n                        background-color:$dkblue;\n                        -webkit-transition: all .2s ease-in-out;\n                        -moz-transition: all .2s ease-in-out;\n                        -ms-transition: all .2s ease-in-out;\n                        -o-transition: all .2s ease-in-out;\n                        transition: all .2s ease-in-out;\n                    }\n                }\n            }\n        }\n    }\n}\nul.split{\n    -moz-column-count: 2;\n    -moz-column-gap: 20px;\n    -webkit-column-count: 2;\n    -webkit-column-gap : 20px;\n    margin-bottom: 20px;\n}\nli#bmvfms{\n    display: none;\n}\n#main{\n    max-width: 1385px;\n    margin:0 auto;\n    padding:0px;\n    position: relative;\n    overflow: hidden;\n    span.fade-down{\n        background-image: url(\"../compressed/test2.png\");\n        background-repeat:no-repeat;\n        background-position:left bottom;\n        display: block;\n        z-index: 99999;\n        width: 440px;\n        height:40px;\n        position: absolute;\n        bottom: -40px;\n        -webkit-transition: all 0.2s ease-in-out;\n        -moz-transition: all 0.2s ease-in-out;\n        -ms-transition: all 0.2s ease-in-out;\n        -o-transition: all 0.2s ease-in-out;\n        transition: all 0.2s ease-in-out;\n    }\n    #primary{\n        max-width: 2000px;\n        width: 100%;\n        position: relative;\n        #content[role=\"content\"]{\n            width:410px;\n            float:left;\n            padding:0 15px 30px;\n            background-color: #ffffff;\n            position: relative;\n            article{\n                margin-bottom: 0;\n                padding-bottom: 5px;\n                header.entry-header{\n                    padding:1px 0 0;\n                    margin: 0 0 13px;\n                    h2{\n                        color:$orange;\n                        font-family: $robo;\n                        border-bottom: 4px solid #d7d7d9;\n                        font-weight: bold;\n                        font-size: 24px;\n                        line-height: 30px;\n                        padding: 15px 0 11px;\n                        margin-top: 3px;\n                    }\n                }\n                div.page-content{\n                    header.content{\n                        margin-bottom: 15px;\n                        display: table-row;\n                        h3{\n                            @include font(18px,24px, #093254);\n                            font-weight: 800;\n                            padding-right: 25px;\n                            display: table-cell;\n                            vertical-align: top;\n                            margin-right: 20px;\n                            \n                        }\n                        .featured-image{\n                            display: table-cell;\n                            img{\n                                float:left;\n                                width:150px;\n                                max-width: 150px;\n                                height:125px;\n                                border-bottom: 4px solid #d7d7d9;\n                            }\n                        }\n                    }\n                    .entry-content{\n                        margin-top: 20px;\n                        padding-bottom: 20px;\n                        ul{\n                            margin:0;\n                            padding:0;\n                            &.split{\n                                margin-bottom: 25px;\n                                display: block;\n                                width: 100%;\n                                clear:both;\n                                &:last-child{\n                                    margin-bottom:0;\n                                }\n                                li{\n                                    \n                                    \n                                    margin-bottom: 5px;\n                                    margin-left: 20px;\n                                    padding-left: 4px;\n                                }\n                            }\n                            li{\n                                list-style: none;\n                                position: relative;\n                                margin-bottom: 15px;\n                                font-size: .9em;\n                                &:before{\n                                    content: \"\\03a3\";\n                                    position: absolute;\n                                    left: -14px;\n                                    font-size: 12px;\n                                    font-weight: bold;\n                                    top: 1px;\n                                    color: $orange;\n                                }\n                            }\n                        }\n                        p{\n                            color: $ashlt;\n                            margin-bottom:10px;\n                        }\n                        span{\n                            display: inline-block;\n                            p{\n                                width: 30%;\n                                margin-right:4%;\n                                &:last-child{\n                                    margin-right: 0;\n                                }\n                            }\n                        }\n                    }\n                    ul.team{\n                        list-style: none;\n                        margin: 0;\n                        padding: 15px 0 0;\n                        li{\n                            margin: 0 0 10px;\n                            cursor: pointer;\n                            padding: 0;\n                            div.photo{\n                                width: 82px;\n                                height: 80px;\n                                margin-left: 3px;\n                                margin-top: 0px;\n                                float: left;\n                                -webkit-border-radius: 40px;\n                                -moz-border-radius: 40px;\n                                border-radius: 40px;\n                                background-repeat: no-repeat;\n                                background-position: center center;\n                                border: 3px solid #d7d7d9;\n                                overflow: hidden;\n                                img{\n                                    -webkit-box-shadow: 0 0 0 transparent;\n                                    -moz-box-shadow: 0 0 0 transparent;\n                                    box-shadow: 0 0 0 transparent;\n                                }\n                            }\n                            div.name{\n                                float: left;\n                                width: 290px;\n                                margin-left: 20px;\n                                h4{\n                                    font-family: lato;\n                                    font-weight: 900;\n                                    color: $orange;\n                                    font-size: 21px;\n                                    margin-top: 15px;\n                                }\n                                h5{\n                                    color: #777777;\n                                    font-family: lato;\n                                    font-style: italic;\n                                    font-size: 14px;\n                                    font-weight: 400;\n                                }\n                            }\n                            &:hover, &.active{\n                                div.photo{\n                                    border-color: $orange;\n                                    -webkit-transition: all .4s ease-in-out;\n                                    -moz-transition: all .4s ease-in-out;\n                                    -ms-transition: all .4s ease-in-out;\n                                    -o-transition: all .4s ease-in-out;\n                                    transition: all .4s ease-in-out;\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\nul.member-bgs{\n    position: absolute;\n    top:0;\n    left:0;\n    right:0;\n    bottom:0;\n    width: 100%;\n    height: 100%;\n    li{\n        position: absolute;\n        opacity: 0;\n        background-repeat:no-repeat;\n        background-position:center -100px;\n        background-size: 100% auto;\n        position: fixed;\n        width: 100%;\n        z-index: 1;\n        height: 100%;\n        min-width: 1600px;\n        -webkit-transition: all .3s ease-in-out;\n        -moz-transition: all .3s ease-in-out;\n        -ms-transition: all .3s ease-in-out;\n        -o-transition: all .3s ease-in-out;\n        transition: all .3s ease-in-out;\n        &.active{\n            opacity: 1;\n            -webkit-transition: all .3s ease-in-out;\n            -moz-transition: all .3s ease-in-out;\n            -ms-transition: all .3s ease-in-out;\n            -o-transition: all .3s ease-in-out;\n            transition: all .3s ease-in-out;\n        }\n    }\n}\n#sidebar{\n    width: 248px;\n    float: left;\n    overflow: hidden;\n    margin-left: 11px;\n    position: absolute;\n    bottom: 0;\n    left: 440px;\n    top:0;\n    div.meet{\n        position: relative;\n        opacity:0;\n        -webkit-transition: all .01s ease-in-out .1s;\n        -moz-transition: all .01s ease-in-out .1s;\n        -ms-transition: all .01s ease-in-out .1s;\n        -o-transition: all .01s ease-in-out .1s;\n        transition: all .01s ease-in-out .1s;\n        z-index: 99999;\n        left:-250px;\n        &.hold{\n            opacity:0;\n            left:-250px;\n        }\n        &.active{\n            opacity: 1;\n            left: 0;\n        }\n        &.waiting{\n            opacity:0;\n            left:0;\n            -webkit-transition: all .2s ease-in-out .1s;\n            -moz-transition: all .2s ease-in-out .1s;\n            -ms-transition: all .2s ease-in-out .1s;\n            -o-transition: all .2s ease-in-out .1s;\n            transition: all .2s ease-in-out .1s;\n        }\n        h5{\n            font-size: 24px;\n            font-family: lato;\n            font-weight: 800;\n            color: #ffffff;\n            text-shadow:1px 1px 1px rgba(0,0,0,.2);\n            span{}\n        }\n        span{\n            &.arrow{\n                width: 42px;\n                height: 46px;\n                display: block;\n                position: absolute;\n                right: 5px;\n                top:9px;\n                background-image: url(\"../compressed/arrow.png\");\n                background-repeat:no-repeat;\n                background-position:center center;\n            }\n        }\n    }\n    span.numbers{\n        background-image: url(\"../compressed/numbers.png\");\n        background-repeat: no-repeat;\n        background-position: left;\n        width: 100%;\n        display: block;\n        height: 48px;\n        margin-bottom: -5px;\n        position: relative;\n        z-index: 999;\n    }\n    span.more {\n        width: 232px;\n        height: 112px;\n        background-image: url(\"../compressed/member-more.png\");\n        background-repeat:no-repeat;\n        background-position:center center;\n        position: absolute;\n        top: 0;\n        -webkit-transition: all .6s ease-in-out;\n        -moz-transition: all .6s ease-in-out;\n        -ms-transition: all .6s ease-in-out;\n        -o-transition: all .6s ease-in-out;\n        transition: all .6s ease-in-out;\n        &.hidden{           \n            opacity:0;\n        }\n    }\n    ul.bonus{\n        width:248px;\n        li{\n            background-color: #ffffff;\n            width: 248px;\n            height:111px;\n            padding:0px 0 1px;\n            text-align: center;\n            margin-bottom: 9px;\n            display: table;\n            &:last-child{\n                margin-bottom: 0;\n            }\n            span{\n                background-color: #d7d7d9;\n                width: 80px;\n                height: 80px;\n                float: left;\n                display: table;\n                -webkit-border-radius: 40px;\n                -moz-border-radius: 40px;\n                border-radius: 40px;\n                margin: 16px 15px 11px;\n                background-repeat:no-repeat;\n                background-position:center center;\n                bdi{\n                    font-size: 12px;\n                    margin-top: 20px;\n                    font-family: lato;\n                    font-weight: 800;\n                    height: 12px;\n                    text-align: center;\n                    text-transform: uppercase;\n                    color: $ashlt;\n                    display: block;\n                    line-height: 12px;\n                    vertical-align: middle;\n                }\n                p{\n                    font-size: 38px;\n                    display: table-cell;\n                    vertical-align: middle;\n                    color: $ashlt;\n                    \n                    font-weight: 800;\n                    font-family: lato;\n                    &.double{\n                        font-size: 28px;\n                        display: block;\n                        line-height: 28px;\n                    }\n                }\n            }\n            h5{\n                font-size: 14px;\n                color: $ashlt;\n                font-weight: 800;\n                display:table-cell;\n                vertical-align: middle;\n                text-align: left;\n                width: 150px;\n                clear: none;\n            }\n        }\n    }\n    ul.facts{\n        width: 248px;\n        position: absolute;\n        top: 40px;\n        opacity:0;\n        left:-250px;\n        -webkit-transition: all .35s ease-in-out .5s;\n        -moz-transition: all .35s ease-in-out .5s;\n        -ms-transition: all .35s ease-in-out .5s;\n        -o-transition: all .35s ease-in-out .5s;\n        transition: all .35s ease-in-out .5s;\n        &.active{\n            left:0;\n            opacity: 1;\n        }\n        li{\n            background-color: #ffffff;\n            width: 218px;\n            height:92px;\n            padding: 10px 15px;\n            margin-bottom: 8px;\n            position: relative;\n            -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.2);\n            -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.2);\n            box-shadow: 1px 1px 1px rgba(0,0,0,.2);\n            &:last-child{\n                margin-bottom: 0;\n            }\n            h4 {}\n            p {\n                color:$ashlt;\n                font-size: 14px;\n            }\n            span{\n                background-color: #d7d7d9;\n                width: 80px;\n                height: 80px;\n                display: block;\n                -webkit-border-radius: 40px;\n                -moz-border-radius: 40px;\n                border-radius: 40px;\n                margin: 15px 15px;\n            }\n        }\n    }\n    &.numbers{\n        margin-left: 27px;\n        ul{\n            li{\n                margin-bottom: 14px;\n            }\n        }\n    }\n}\n.top-scroll-wrap{\n    overflow: hidden;\n    width: 100%;\n    \n    max-width: 1415px;\n    position: relative;\n    margin: 0 auto;\n    \n    .top-scroll {\n        position: relative;\n        overflow: auto;\n        width: 100%;\n        padding: 0 15px;\n    }\n    span.fade{\n        background-image: url(\"../compressed/test.png\");\n        background-repeat:no-repeat;\n        background-position:left bottom;\n        display: block;\n        z-index: 99999;\n        width: 440px;\n        left:15px;\n        height:60px;\n        background-size: 100% 100%;\n        position: absolute;\n        bottom: 0;\n        -webkit-transition: all 0.2s ease-in-out;\n        -moz-transition: all 0.2s ease-in-out;\n        -ms-transition: all 0.2s ease-in-out;\n        -o-transition: all 0.2s ease-in-out;\n        transition: all 0.2s ease-in-out;\n        &.hidden{\n            opacity: 0;\n            -webkit-transition: all 0.2s ease-in-out;\n            -moz-transition: all 0.2s ease-in-out;\n            -ms-transition: all 0.2s ease-in-out;\n            -o-transition: all 0.2s ease-in-out;\n            transition: all 0.2s ease-in-out;\n        }\n    }\n}\n#main.wrapper {\n    width: 100%;\n    min-width: 1000px;\n    margin:0 0 0px;\n    padding:0;\n    -webkit-transition: all 0.5s ease-in-out;\n    -moz-transition: all 0.5s ease-in-out;\n    -ms-transition: all 0.5s ease-in-out;\n    -o-transition: all 0.5s ease-in-out;\n    transition: all 0.5s ease-in-out;\n}\n\n/*-----  End of Header  ------*/\n\n\n\n/*==============================\n        ***** Footer *****\n==============================*/\n.ie8 {\n    header#masthead {\n        nav#secondary{\n            width: 252px;\n        }\n    }\n    ul.team{\n        li{\n            div.photo{\n\n            }\n        }\n    }\n    footer {\n        div.inner {\n            nav#footer-navigation {\n                div.menu-main-menu-container {\n                    ul.nav-menu {\n                        li {\n                            a{\n                                background-image: url(\"../img/navbg.png\");\n                                background-repeat:repeat;\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\nfooter{\n    position: fixed;\n    bottom: 0;\n    width: 100%;\n    div.inner{\n             max-width:1385px;\n            margin:0 auto 10px;\n            padding:0 15px;\n            \n        div.logo-holder{\n            float:left;     \n            width:195px;\n            a.logo{\n                width:195px;\n                height:58px;\n                padding-bottom:2px;\n                background-color: #ffffff;\n                background-image: url(\"../compressed/footer-logo.png\");\n                background-repeat:no-repeat;\n                background-position:center center;\n                display: block;\n            }\n        }\n        nav#footer-navigation{\n            position: relative;\n            width: -moz-calc(100% - 200px);\n            width: -webkit-calc(100% - 200px);\n            width: -o-calc(100% - 200px);\n            width: calc(100% - 200px);\n            max-width: 1150px;\n            float: left;\n            margin-left: 5px;\n            div.menu-main-menu-container{\n                \n                ul.nav-menu{\n                    li{\n                        padding:0;\n                        a{\n                    -webkit-transition: all .3s ease-in-out;\n                       -moz-transition: all .3s ease-in-out;\n                        -ms-transition: all .3s ease-in-out;\n                         -o-transition: all .3s ease-in-out;\n                            transition: all .3s ease-in-out;\n                            text-decoration: none;\n                            border-bottom: none;\n                            text-transform: uppercase;\n                            font-family: lato;\n                            font-weight: 300;\n                            display:block;\n                            background-color:rgba(236,74,0,.5);\n                            margin:0 5px;\n                            text-align: center;\n                            padding:0;\n                            line-height: 50px;\n                            height:50px;\n                            &:hover{\n                                background-color:rgba(236,74,0,1);\n                                        -webkit-transition: all .3s ease-in-out;\n                                        -moz-transition: all .3s ease-in-out;\n                                        -ms-transition: all .3s ease-in-out;\n                                        -o-transition: all .3s ease-in-out;\n                                        transition: all .3s ease-in-out;\n                            }\n                        }\n                        &.current_page_item{\n                                a{\n                                    background-color:rgba(236,74,0,1);\n                                        -webkit-transition: all .2s ease-in-out;\n                                           -moz-transition: all .2s ease-in-out;\n                                            -ms-transition: all .2s ease-in-out;\n                                             -o-transition: all .2s ease-in-out;\n                                                transition: all .2s ease-in-out;\n                                }\n                            }\n                    }\n                }\n            }\n        }\n    }\n    div.footer-panel{\n        background-color: #fff;\n        min-height: 10px;\n        float: left;\n        width: 100%;\n    }\n}\n\n\n/*-----  End of Footer  ------*/\n\n/*==================================\n        **** Slide Menu ****\n==================================*/\n\n\n\n",
+			"file": "scss/custom.scss",
+			"file_size": 27683,
+			"file_write_time": 1378890476000000,
+			"settings":
+			{
+				"buffer_size": 27667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/css/responsive.css",
+			"settings":
+			{
+				"buffer_size": 5338,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,23 +162,31 @@
 			"file": "js/min/main.min.js",
 			"settings":
 			{
-				"buffer_size": 1447,
+				"buffer_size": 17592,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/inc/post-types.php",
+			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 784,
+				"buffer_size": 16783,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "functions.php",
+			"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/js/plugins.js",
 			"settings":
 			{
-				"buffer_size": 16300,
+				"buffer_size": 50581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/fastclick.js",
+			"settings":
+			{
+				"buffer_size": 21813,
 				"line_ending": "Unix"
 			}
 		}
@@ -187,9 +194,29 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 307.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"monitor",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"monit",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"monitr",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -204,18 +231,6 @@
 			],
 			[
 				"monito",
-				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"monit",
-				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"monitor",
-				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"moni",
 				"SFTP: Monitor File (Upload on External Save)"
 			],
 			[
@@ -253,10 +268,6 @@
 			[
 				"refre",
 				"Preferences: SFTP Settings"
-			],
-			[
-				"mon",
-				"SFTP: Monitor File (Upload on External Save)"
 			],
 			[
 				"upl",
@@ -352,8 +363,32 @@
 	},
 	"file_history":
 	[
-		"/Users/rsimmons/Desktop/test.html",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/js/modernizr.js",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/template-redirect.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/content-page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/content-team.php",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/css/responsive.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/inc/custom-functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/navbg.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/js/fastclick.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/arrow.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/menu.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/css/ie.css",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/style.css",
+		"/Users/rsimmons/Desktop/test.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/js/min/main.min.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/css/custom.css",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/.git/COMMIT_EDITMSG",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/team.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/sidebar.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Sigma/scss/custom.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/sigma/inc/post-types.php",
+		"/Users/rsimmons/Desktop/test.html",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Prefixr/Default (OSX).sublime-keymap",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Autoprefixer.sublime-settings",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
@@ -362,14 +397,8 @@
 		"/Users/rsimmons/Desktop/Development/Projects/sigma/Gruntfile.js",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/style.min.css",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/team.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/css/custom.css",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/js/min/main.min.js",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/css/test.css",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/f.jquery.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/js/main.js",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/scss/custom.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/header.php",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/el.jquery.sublime-snippet",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/package.json",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/Gruntfile.js",
@@ -381,15 +410,9 @@
 		"/Users/rsimmons/Desktop/Development/myApps/Grunt/Gruntfile.js",
 		"/Users/rsimmons/Desktop/Development/myApps/Grunt/package.json",
 		"/Users/rsimmons/Desktop/Development/myApps/Grunt/gruntfile.js",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/arrow.png",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/member-more.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/functions.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/page.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/footer.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/content-page.php",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/photo2.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Sigma/content-team.php",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/css-img.sublime-snippet",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/photo1.png",
 		"/Users/rsimmons/Desktop/Development/Projects/Sigma/img/test3.png",
@@ -443,7 +466,6 @@
 		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377728885/iCodeThings/sftp-config.json",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/code.sublime-project",
 		"/Users/rsimmons/Desktop/Dezins/Diversified Design Group/Template Files/Foundation/index.php",
-		"/Users/rsimmons/Desktop/test.php",
 		"/Users/rsimmons/Desktop/Development/Projects/Concierge Health Services/_Production/chs/lab.php",
 		"/Users/rsimmons/Desktop/Dezins/Diversified Design Group/Template Files/Foundation/page.php",
 		"/Users/rsimmons/Desktop/Development/Freelance/Central/scss/custom.scss",
@@ -468,18 +490,7 @@
 		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377619086/amkAnalytics/app/View/Pages/casestudies.ctp",
 		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377619154/amkAnalytics/app/View/Pages/productscorpsample.ctp",
 		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377621315/amkAnalytics/app/Config/core.php",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377622595/amkAnalytics/app/View/Pages/index.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377622831/amkAnalytics/app/webroot/css/style.css",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377623428/amkAnalytics/app/View/Elements/report_table.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377624132/amkAnalytics/app/View/Elements/compare_graphs.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377620126/amkAnalytics/app/View/Reports/view.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377624473/amkAnalytics/app/View/Reports/search.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377620524/amkAnalytics/app/View/Elements/rqaq_graphs.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377624444/amkAnalytics/app/View/Elements/search_autocomplete.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377621245/amkAnalytics/app/Config/database.php",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377621169/amkAnalytics/app/View/Pages/view.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377620149/amkAnalytics/app/View/Elements/rqaq_graphs.ctp",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377620454/amkAnalytics/app/View/Elements/include_scripts.ctp"
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1377622595/amkAnalytics/app/View/Pages/index.ctp"
 	],
 	"find":
 	{
@@ -497,6 +508,100 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getElementsByClassName",
+			";\n",
+			"inset",
+			"Menu",
+			"clip",
+			"ffffff",
+			"orange",
+			"red",
+			"ltblue",
+			"ashdk",
+			"ashlt",
+			"uppercase",
+			"slideout",
+			"auto",
+			"touch",
+			"dragleft",
+			"cl",
+			"pwrapper",
+			"body",
+			"touch",
+			"open",
+			"openPanel",
+			"closePanel",
+			"openPanel",
+			"closePanel",
+			"release",
+			"swiperight",
+			"released",
+			"panw",
+			"trans",
+			"page",
+			"bg",
+			"slideout",
+			"els",
+			"open",
+			"panwidth",
+			"swiperight",
+			"(\" ",
+			"dragright",
+			"swiperight",
+			"jquery",
+			"enqu",
+			"main",
+			"fastclick",
+			"panw",
+			"($",
+			"panwidth",
+			"$transition",
+			"transi",
+			"removeClass",
+			"addClass",
+			".width",
+			"wrapper",
+			"min",
+			"slideout",
+			"page-wrapp",
+			"ui",
+			"slideout_inner",
+			"relative",
+			"jquery",
+			";\n",
+			"div",
+			" >",
+			"body",
+			"div",
+			"$(' ",
+			" >",
+			"body",
+			"slideout",
+			"slideout_inner",
+			"slideout",
+			"this",
+			"fixed",
+			"active",
+			"addClass",
+			"click",
+			"live",
+			"slideout",
+			"photo",
+			"img",
+			"box-s",
+			"filter",
+			"shadow",
+			"filter",
+			"filte",
+			"filter",
+			"filterp",
+			"filter",
+			"h1",
+			"h4",
+			"jquery",
+			"split",
+			"hidden",
+			"clearfix",
 			"h3",
 			"get_the_title",
 			"().'</",
@@ -530,57 +635,7 @@
 			"scroll",
 			"jQuery",
 			"member",
-			"ul",
-			"div",
-			"enqueue_scri",
-			"    \n",
-			"template_par",
-			"8950",
-			"image_size",
-			"thumbnail",
-			"lato",
-			"register",
-			"min-he",
-			"artic",
-			"non",
-			"incl",
-			"AMK Analytics",
-			"bank",
-			"blank",
-			"strength",
-			"blank",
-			"bank",
-			"strength",
-			"strength	",
-			"AMK Analytics",
-			"advanced cu",
-			"INVESTMENT",
-			"AMK Analytics",
-			"amk",
-			"purchase",
-			"amk",
-			"database",
-			"amk",
-			"view",
-			"cart-v",
-			"infp-top",
-			"get_",
-			"get	",
-			"get",
-			"/",
-			"menu",
-			"slider",
-			"register",
-			"content-block",
-			"thumb",
-			"font-fa",
-			"close",
-			"super+alt+.",
-			"close_tag",
-			"focus",
-			"password",
-			"database",
-			"caption"
+			"ul"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -599,97 +654,36 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "content-team.php",
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 2108,
+						"buffer_size": 2646,
 						"regions":
 						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1932,
+										1970
+									]
+								],
+								"scope": "variable.parameter"
+							}
 						},
 						"selection":
 						[
 							[
-								954,
-								804
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/custom-functions.php",
-					"settings":
-					{
-						"buffer_size": 599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
+								2039,
+								2039
 							]
 						],
 						"settings":
@@ -747,595 +741,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1039.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "page.php",
-					"settings":
-					{
-						"buffer_size": 666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								402,
-								402
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 728.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "footer.php",
-					"settings":
-					{
-						"buffer_size": 1232,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										744,
-										750
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								1065,
-								1004
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 224.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "team.php",
-					"settings":
-					{
-						"buffer_size": 1409,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										1346,
-										1351
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sidebar.php",
-					"settings":
-					{
-						"buffer_size": 1505,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 117.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "header.php",
-					"settings":
-					{
-						"buffer_size": 1750,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										1123,
-										1143
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								1550,
-								1550
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 560.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "content-page.php",
-					"settings":
-					{
-						"buffer_size": 926,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 119.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 5,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "scss/custom.scss",
-					"settings":
-					{
-						"buffer_size": 24326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8328,
-								8328
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6238.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 1,
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 2126,
+						"buffer_size": 41326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								491,
-								491
+								386,
+								386
 							]
 						],
 						"settings":
@@ -1397,11 +821,256 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "css/custom.css",
+					"buffer": 2,
+					"file": "footer.php",
 					"settings":
 					{
-						"buffer_size": 14814,
+						"buffer_size": 1424,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										746,
+										752
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								1407,
+								1407
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0.0,
+							"synced": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 418.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/scss/responsive.scss",
+					"settings":
+					{
+						"buffer_size": 5506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2869,
+								2869
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1502.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/custom.scss",
+					"settings":
+					{
+						"buffer_size": 27667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								399
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/css/responsive.css",
+					"settings":
+					{
+						"buffer_size": 5338,
 						"regions":
 						{
 						},
@@ -1460,8 +1129,11 @@
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
+							"sftp_duplicate_views": 0.0,
 							"synced": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1470,11 +1142,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 6,
 					"file": "js/min/main.min.js",
 					"settings":
 					{
-						"buffer_size": 1447,
+						"buffer_size": 17592,
 						"regions":
 						{
 						},
@@ -1543,19 +1215,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/inc/post-types.php",
+					"buffer": 7,
+					"file": "css/custom.css",
 					"settings":
 					{
-						"buffer_size": 784,
+						"buffer_size": 16783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								610,
-								610
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1605,12 +1277,9 @@
 								"bh_single_quote_close"
 							],
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1619,19 +1288,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "functions.php",
+					"buffer": 8,
+					"file": "/Users/rsimmons/Desktop/Development/Projects/sigma/js/plugins.js",
 					"settings":
 					{
-						"buffer_size": 16300,
+						"buffer_size": 50581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8262,
-								8262
+								47385,
+								47385
 							]
 						],
 						"settings":
@@ -1681,32 +1350,119 @@
 								"bh_single_quote_close"
 							],
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9490.0,
+						"translation.y": 29357.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "inc/custom-functions.php",
+					"buffer": 9,
+					"file": "js/fastclick.js",
 					"settings":
 					{
-						"buffer_size": 599,
+						"buffer_size": 21813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								0,
+								21813
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										746,
+										752
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								670,
+								670
 							]
 						],
 						"settings":
@@ -1764,7 +1520,83 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 439.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 2646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1808,
+								1808
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0.0,
+							"synced": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 740.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1800,7 +1632,7 @@
 		"cols":
 		[
 			0.0,
-			0.2,
+			0.8,
 			1.0
 		],
 		"rows":
@@ -1816,7 +1648,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 31.0
+		"height": 204.0
 	},
 	"output.unsaved_changes":
 	{
@@ -1833,27 +1665,15 @@
 		"selected_items":
 		[
 			[
-				"page",
-				"page.php"
+				"footer",
+				"footer.php"
 			],
 			[
-				"content-page",
-				"content-page.php"
+				"foot",
+				"footer.php"
 			],
 			[
 				"header",
-				"header.php"
-			],
-			[
-				"custom",
-				"inc/custom-functions.php"
-			],
-			[
-				"content-p",
-				"content-page.php"
-			],
-			[
-				"head",
 				"header.php"
 			],
 			[
@@ -1861,12 +1681,120 @@
 				"functions.php"
 			],
 			[
-				"side",
-				"sidebar.php"
+				"function",
+				"functions.php"
 			],
 			[
-				"footer",
-				"footer.php"
+				"main",
+				"js/main.js"
+			],
+			[
+				"functio",
+				"functions.php"
+			],
+			[
+				"m",
+				"js/main.js"
+			],
+			[
+				"fas",
+				"js/fastclick.js"
+			],
+			[
+				"reso",
+				"css/responsive.css"
+			],
+			[
+				"main.m",
+				"js/min/main.min.js"
+			],
+			[
+				"custom",
+				"css/custom.css"
+			],
+			[
+				"fast",
+				"js/fastclick.js"
+			],
+			[
+				"",
+				"js/main.js"
+			],
+			[
+				"resp",
+				"scss/responsive.scss"
+			],
+			[
+				"functions",
+				"functions.php"
+			],
+			[
+				"main.",
+				"js/main.js"
+			],
+			[
+				"cu",
+				"scss/custom.scss"
+			],
+			[
+				"cust",
+				"css/custom.css"
+			],
+			[
+				"ma",
+				"js/main.js"
+			],
+			[
+				"main.mi",
+				"js/min/main.min.js"
+			],
+			[
+				"main.min",
+				"js/min/main.min.js"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"ie.cs",
+				"css/ie.css"
+			],
+			[
+				"custom-f",
+				"inc/custom-functions.php"
+			],
+			[
+				"content-t",
+				"content-team.php"
+			],
+			[
+				"content",
+				"content-page.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"content-page",
+				"content-page.php"
+			],
+			[
+				"content-p",
+				"content-page.php"
+			],
+			[
+				"side",
+				"sidebar.php"
 			],
 			[
 				"fun",
@@ -1885,44 +1813,16 @@
 				"style.css"
 			],
 			[
-				"main",
-				"js/main.js"
-			],
-			[
-				"cust",
-				"css/custom.css"
-			],
-			[
-				"functio",
-				"functions.php"
-			],
-			[
 				"content-pa",
 				"content-page.php"
-			],
-			[
-				"main.min",
-				"js/min/main.min.js"
 			],
 			[
 				"js",
 				"js/html5.js"
 			],
 			[
-				"sty",
-				"style.css"
-			],
-			[
 				"fonts",
 				"css/fonts.css"
-			],
-			[
-				"cu",
-				"scss/custom.scss"
-			],
-			[
-				"",
-				"js/html5.js"
 			],
 			[
 				"fu",
@@ -1943,10 +1843,6 @@
 			[
 				"news",
 				"templates/news.php"
-			],
-			[
-				"content",
-				"intro-text_content.php"
 			],
 			[
 				"servi",
@@ -2007,10 +1903,6 @@
 			[
 				"woo",
 				"woocommerce/single-product.php"
-			],
-			[
-				"function",
-				"functions.php"
 			],
 			[
 				"content-sin",
@@ -2079,10 +1971,6 @@
 			[
 				"flex",
 				"css/flexslider.css"
-			],
-			[
-				"main.mi",
-				"js/min/main.min.js"
 			],
 			[
 				"scripts",

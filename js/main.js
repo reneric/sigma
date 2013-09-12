@@ -1,4 +1,53 @@
-jQuery(function($){
+jQuery(function($){	
+ document.getElementById('menu-toggle').addEventListener('touchstart', function(){
+ 	document.body.className = (document.body.className == 'open') ? '' : 'open';
+ }, false);
+var body = $('body');
+var toggle = document.getElementById('menu-toggle');
+var scroll = $('.top-scroll-wrap');
+var hammertime = $('#page-wrapper').hammer();
+var pwrapper = $('#page-wrapper');
+var els = $('body > div, footer, .top-scroll-wrap');
+var $els = $('body,body > div, #page-wrapper, #menu-toggle,#slideout,footer, .top-scroll-wrap');
+body.addClass('close');
+
+ Hammer(hammertime).on("touch swiperight", function(ev) {
+ 	ev.gesture.preventDefault();
+        document.body.className = (document.body.className == 'open') ? '' : 'open';
+    });
+  Hammer(hammertime).on("touch swipeleft", function(ev) {
+ 	ev.gesture.preventDefault();
+
+        document.body.className = (document.body.className == 'open') ? 'close' : '';
+    });
+//  Hammer(body).on("dragleft swipeleft touch", function(ev) {
+// 	var touches = ev.gesture.touches;
+//     ev.gesture.preventDefault();
+//     if ($(this).hasClass('open')) {
+// 		for(var t=0,len=touches.length; t<len; t++) {
+// 			var target = $(touches[t].target);
+// 			var loc = touches[t].pageX;
+// 			if(loc <= 250 && loc >= 75){
+// 				move(els,loc)
+// 			}
+// 		}
+// 	}
+// });
+
+// Hammer(pwrapper).on("tap", function(ev) {
+//  	ev.gesture.preventDefault();
+//  	document.body.className = (document.body.className == 'open') ? 'close' : 'open';
+// });  
+Hammer(toggle).on("tap doubletap", function(ev) {
+ 	ev.gesture.preventDefault();
+ 	document.body.className = (document.body.className == 'open') ? 'close' : 'open';
+});
+function moveStop(){
+	els.removeClass('draggable');
+}
+function move(els,pixels){
+	els.css('-webkit-transform', 'translate3d(' + pixels + 'px,0,0)').addClass('draggable');
+}
 function init(){
 	var headerHeight = $('header#masthead').height();
 	var winHeight = $(window).height();
@@ -9,11 +58,27 @@ function init(){
 	var max = headerHeight+cHeight;
 	var height = winHeight-footerHeight;
 	var wrap = winHeight-footerHeight;
+	
 	$('#primary').css('minHeight', bonus+80+'px');
 	$(".top-scroll-wrap").css('maxHeight', max+0+'px');
-	$(".top-scroll-wrap").css('height', height -20+ 'px');
+	$(".top-scroll-wrap").css('height', height-20+ 'px');
 	$('.top-scroll').css('height', wrap - 20 + 'px');
 }
+$("a[href^=#]").on("click", function(e) {
+  e.preventDefault();
+  history.pushState({}, "", this.href);
+});
+var bHeight = $('body').height();
+var bh = $('body').width();
+var width = bh-75;
+
+$('#slideout_inner, #slideout_inner ul').css({
+	'height':bHeight+20+'px'
+})
+
+
+
+
 function fader(){
 	var scrollWrap = $(".top-scroll-wrap").height();
 	var scroll = $(".top-scroll").height();
@@ -29,7 +94,7 @@ init();
 function resize(){
 	// Content Height
 	var headerHeight = $('header#masthead').height();
-	var winHeight = $(window).height();
+	var winHeight = $('body').height();
 	var footerHeight = $('footer').height();
 	var primaryHeight = $('#primary').height();
 	var cHeight = $("article.page").height();
