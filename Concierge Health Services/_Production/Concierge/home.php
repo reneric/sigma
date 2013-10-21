@@ -16,6 +16,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="home">
 			<div class="content-block">
+			<div class="content-bg"></div>
 				<div class="tagline">
 					<div class="inner">
 						<span></span>

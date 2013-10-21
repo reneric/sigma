@@ -211,36 +211,19 @@ ul.social:after {
 }
 
 .content-block {
-  position: relative;
-  min-height: 500px;
-  margin: 0;
-  padding: 1px 0 30px;
-}
-.content-block .content-bg {
   background-image: url("../img/home-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  content: "";
-  z-index: 1;
-  -webkit-transition: opacity 0.5s ease;
-  -moz-transition: opacity 0.5s ease;
-  -ms-transition: opacity 0.5s ease;
-  -o-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
+  min-height: 500px;
+  margin: 0;
+  padding: 1px 0 30px;
 }
 
 .tagline {
   background-color: rgba(0, 0, 0, 0.3);
   height: 34px;
   margin-top: 30px;
-  z-index: 999;
   position: relative;
 }
 .tagline .inner {
@@ -271,8 +254,6 @@ ul.social:after {
 
 .row.areas {
   width: 850px;
-  position: relative;
-  z-index: 99999;
   margin: 30px auto 30px;
 }
 .row.areas .area {
@@ -433,7 +414,7 @@ ul.social:after {
 =            Content Page            =
 ====================================*/
 .site-content[role="content"] .content-block {
-  background-image: url("../img/content-bg2.png");
+  background-image: url("../img/content-bg.png");
   background-repeat: repeat-y;
   background-position: center;
   background-size: auto;

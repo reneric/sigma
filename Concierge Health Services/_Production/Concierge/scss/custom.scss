@@ -240,18 +240,35 @@ ul.social:after {
 	padding:1px 0 0;
 }
 .content-block {
-	background-image: url("../img/home-bg.png");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 100% 100%;
+	position: relative;
 	min-height: 500px;
 	margin: 0;
 	padding: 1px 0 30px;
+	.content-bg{
+		background-image: url("../img/home-bg.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% 100%;
+		position: absolute;
+		left: 0;
+		opacity: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		z-index: 1;
+		-webkit-transition: opacity 0.5s ease;
+		-moz-transition: opacity 0.5s ease;
+		-ms-transition: opacity 0.5s ease;
+		-o-transition: opacity 0.5s ease;
+		transition: opacity 0.5s ease;
+	}
 }
 .tagline{
 	background-color:rgba(0,0,0,.3);
 	height: 34px;
 	margin-top:30px;
+	z-index: 999;
 	position: relative;
 	.inner{
 		width: 800px;
@@ -285,6 +302,8 @@ ul.social:after {
 $time: .1s;
 .row.areas {
 	width: 850px;
+	position: relative;
+	z-index: 99999;
 	margin:30px auto 30px;
 	.area {
 		@include transition(all, $time);
@@ -442,7 +461,7 @@ $time: .1s;
 .site-content {}
 .site-content[role="content"] {
 	.content-block {
-		@include bg-img("content-bg.png",repeat-y,auto,center);
+		@include bg-img("content-bg2.png",repeat-y,auto,center);
 		width: 941px;
 		margin: 0 auto;
 		text-align: center;
